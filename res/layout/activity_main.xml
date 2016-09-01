@@ -1,0 +1,319 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_app"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+			
+            <RelativeLayout 
+                android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                android:layout_width="42dp"
+                       android:clickable="true"
+                android:id="@+id/rl_pattern_01"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_01" />
+               </RelativeLayout>
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="match_parent" />
+
+          <RelativeLayout 
+                  android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                android:layout_width="42dp"
+                       android:clickable="true"
+                android:id="@+id/rl_pattern_02"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_02" />
+               </RelativeLayout>
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="match_parent" />
+
+             <RelativeLayout 
+                     android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                android:layout_width="42dp"
+                       android:clickable="true"
+                android:id="@+id/rl_pattern_03"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_03" />
+               </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RelativeLayout 
+                    android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                android:layout_width="42dp"
+                       android:clickable="true"
+                android:id="@+id/rl_pattern_04"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_04" />
+               </RelativeLayout>
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="match_parent" />
+
+         <RelativeLayout 
+                 android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                android:layout_width="42dp"
+                       android:clickable="true"
+                android:id="@+id/rl_pattern_05"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_05" />
+               </RelativeLayout>
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="match_parent" />
+
+           <RelativeLayout 
+                   android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                android:layout_width="42dp"
+                       android:clickable="true"
+                android:id="@+id/rl_pattern_06"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_06" />
+               </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RelativeLayout 
+                    android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                android:layout_width="42dp"
+                       android:clickable="true"
+                android:id="@+id/rl_pattern_07"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_07" />
+               </RelativeLayout>
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="match_parent" />
+
+         <RelativeLayout 
+                 android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                android:layout_width="42dp"
+                       android:clickable="true"
+                android:id="@+id/rl_pattern_08"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_08" />
+               </RelativeLayout>
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="match_parent" />
+
+             <RelativeLayout 
+                     android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                android:layout_width="42dp"
+                       android:clickable="true"
+                android:id="@+id/rl_pattern_09"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_09" />
+               </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+          <RelativeLayout 
+                  android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                       android:clickable="true"
+                android:layout_width="42dp"
+                android:id="@+id/rl_pattern_10"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_10" />
+               </RelativeLayout>
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="match_parent" />
+
+           <RelativeLayout 
+                       android:focusable="true"
+                   android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                android:layout_width="42dp"
+                       android:clickable="true"
+                android:id="@+id/rl_pattern_11"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_11" />
+               </RelativeLayout>
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="match_parent" />
+
+           <RelativeLayout 
+               android:focusable="true"
+                   android:background="@drawable/ic_pattern_bg"
+                android:layout_height="match_parent"
+                android:layout_width="42dp"
+                android:clickable="true"
+                android:id="@+id/rl_pattern_12"
+                >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_bg_pattern_normal" />
+               <ImageView
+                        android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_pattern_12" />
+               </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="96dp" />
+
+</LinearLayout>

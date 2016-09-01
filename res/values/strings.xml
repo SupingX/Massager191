@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">massager_191</string>
+    <string name="unkown">未知</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_massager">MassagerActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="refresh">Refresh</string>
+    <string name="back">Back</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="str_pattern_01">按摩模式一</string>
+    <string name="str_default_time_15_min">15:00</string>
+    <string name="str_massager_has_off_line">按摩器掉线了...</string>
+    <string name="default_date_2015_1">2015/01</string>
+    <string name="str_time">时间</string>
+    <string name="str_pattern">模式</string>
+    <string name="str_power">力度</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="color_pattern_bg_normal">#00000000</color>
+    <color name="color_pattern_bg_selected">#33352458</color>
+    
+    <!-- 3FB5FF -->
+    
+    
+    
+        <color name="text_main">#792269</color>
+    <color name="blue">#037BFF</color>
+    <color name="red">#FD4A2E</color>
+      <color name="color_orange_main">#792269</color>
+        
+        
+        
+        
+        
+</resources>
